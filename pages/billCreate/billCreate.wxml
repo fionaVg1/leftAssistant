@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<view class="page-body">
+<form bindsubmit="goToBill">
+    <view class="page-section">
+      <view class="weui-cells__title">工资</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <input class="weui-input" type="number" name="salary" value="{{salary}}"/>
+        </view>
+      </view>
+    </view>    
+     <view class="page-section">
+      <view class="weui-cells__title">其他收入</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <input class="weui-input" type="number" name="otherIncome" value="{{otherIncome}}"/>
+        </view>
+      </view>
+    </view>  
+    <view class="page-section">
+      <view class="weui-cells__title">信用卡消费</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <input class="weui-input" type="number" name="creditCardConsumption" value="{{creditCardConsumption}}"/>
+        </view>
+      </view>
+    </view>  
+    <view class="page-section">
+      <view class="weui-cells__title">花呗消费</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <input class="weui-input" type="number" name="antConsumption" value="{{antConsumption}}"/>
+        </view>
+      </view>
+    </view>  
+    <view class="page-section">
+      <view class="weui-cells__title">其他消费</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <input class="weui-input" type="number" name="otherConsumption" value="{{otherConsumption}}"/>
+        </view>
+      </view>
+    </view>  
+    <button form-type='submit' type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}"> 生成月账单 </button>
+</form>
+</view>

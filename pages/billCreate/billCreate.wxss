@@ -1,0 +1,9 @@
+/**index.wxss**/
+@import "../../lib/weui.wxss";
+.mt20 {
+  margin-top: 20rpx;
+}
+.page-section{
+  margin-bottom: 20rpx;
+}
+button {margin: 10px;}

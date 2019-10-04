@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<!-- 小程序名称：生活小帮手 -->
+<view class="container">
+    <view bindtap="gotoPage" data-page="billCreate" class="mt20 list-item">月账单创建</view>
+    <view bindtap="gotoPage" data-page="scrollline" class="mt20 list-item">周步数统计</view>
+    <view bindtap="gotoPage" data-page="column" class="list-item">Column</view>
+    <view bindtap="gotoPage" data-page="pie" class="list-item">Pie</view>
+    <view bindtap="gotoPage" data-page="ring" class="list-item">Ring</view>
+    <view bindtap="gotoPage" data-page="area" class="list-item">Area</view>
+    <view bindtap="gotoPage" data-page="radar" class="list-item">Radar</view>
+</view>

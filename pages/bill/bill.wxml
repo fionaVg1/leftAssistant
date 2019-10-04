@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+    <canvas canvas-id="incomePieCanvas" class="canvas" style="height:300px" bindtouchstart="touchHandler"></canvas>
+    <canvas canvas-id="consumptionPieCanvas" class="canvas" style="height:300px" bindtouchstart="touchHandler"></canvas>
+    <canvas canvas-id="columnCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
+</view>
